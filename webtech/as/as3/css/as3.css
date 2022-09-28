@@ -1,0 +1,9 @@
+.jumbotron{
+    background-image: url("../assets/ntpusunset.JPG");
+    color: #342A21;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 8%;
+    height: 50vh;
+    /* vh: viewport height; */
+}
