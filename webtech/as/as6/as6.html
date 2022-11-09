@@ -10,8 +10,8 @@
     <style>
       #video{
         position: fixed;
-        min-width: 100%;
-        min-height: 100%;
+        min-width: 100vw;
+        min-height: 100vh;
         z-index: -1;
       }
 
@@ -20,7 +20,7 @@
     <title>google earth</title>
   </head>
   <body>
-    <div class="container-fluid" style="height: 2000vh; padding:0px;">
+    <div class="container-fluid" style="height: 1000vh; padding:0px;">
       <video id="video" src="/assets/googleearth.mp4"></video>
 
     </div>
@@ -37,8 +37,8 @@
         $(window).scroll(function(){
           var current_pos = $(document).scrollTop();
           var video = $("#video").get(0);
-          var videolenght = video.duration;
-          video.currentTime = current_pos / scroll_max * videolenght;
+          var videoLenght = video.duration;
+          video.currentTime = current_pos / scroll_max * videoLenght;
 
         });
       });
