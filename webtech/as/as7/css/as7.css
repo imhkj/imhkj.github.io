@@ -1,0 +1,69 @@
+#sect1bg {
+    background-image: url(assets/reporter1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #sect2bg {
+    background-image: url(assets/reporter2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh
+  }
+
+  #sect3bg {
+    background-image: url(assets/reporter3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #sect4bg {
+    background-image: url(assets/reporter4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #sect5bg {
+    background-image: url(assets/reporter5.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #sect6bg {
+    background-image: url(assets/reporter6.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #sect7bg {
+    background-image: url(assets/reporter7.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #video {
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+}
